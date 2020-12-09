@@ -60,7 +60,7 @@
                   <div class="form-group d-flex align-items-center justify-content-between">
                     <div class="form-check">
                       <label class="form-check-label" for="remember">
-                        <input type="checkbox" class="form-check-input" name="remember" id="remember"> Remember me </label>
+                        <input type="checkbox" class="form-check-input" name="remember" id="remember"> Remember Me </label>
                     </div>
                   </div>
 
