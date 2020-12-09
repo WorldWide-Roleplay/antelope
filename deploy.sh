@@ -14,10 +14,10 @@ echo "👷 Turning on maintenance mode..."
 php artisan down
 
 # Pull the latest changes from the git repository
-# git reset --hard
-# git clean -df
+git reset --hard
+git clean -df
 echo "🎖️ Pulling lastest changes from git repository..."
-# git pull origin master
+git pull https://github.com/WorldWide-Roleplay/antelope
 # echo -e "🟡 \e[30m\e[103m\e[1m[WARNING]\e[21m Git Repository fetching is turned off!\e[0m"
 
 # Install/update composer dependecies
