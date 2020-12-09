@@ -24,7 +24,7 @@ git pull https://github.com/WorldWide-Roleplay/antelope
 # composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 echo "💎 Installing and/or updating composer dependencies..."
 composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
-
+composer update --no-interaction
 # Run database migrations
 echo "💾 Running database migrations..."
 php artisan migrate --force
