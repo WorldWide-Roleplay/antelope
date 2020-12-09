@@ -1,0 +1,89 @@
+#xcs-header {
+	color: white;
+	text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.select2-container--default .select2-dropdown .select2-search__field {
+  color: black !important;
+}
+
+.rotate-15 {
+  transform: rotate(15deg);
+}
+
+.rotate-n-15 {
+  transform: rotate(-15deg);
+}
+
+#xcs-header-icon {
+  font-size: 2rem;
+  margin-right: 0.3rem!important;
+}
+
+#xcs-header-sub {
+  font-size: 20%;
+}
+
+.content-wrapper
+{
+  min-height: 100vh;
+}
+
+body, html {
+  background: #000000;
+}
+
+input:disabled, select:disabled, textarea:disabled {
+    color: #ffffff !important;
+    background-color: #2A3038 !important;
+}
+
+.select2-container--default.select2-container--disabled .select2-selection--single {
+    color: #ffffff !important;
+    background-color: #2A3038 !important;
+}
+
+input, select, textarea{
+    color: #ffffff !important;
+}
+
+textarea:focus, input:focus {
+    color: #ffffff !important ;
+}
+
+.datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.old.day, .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.old.day {
+    color: #434a54 !important;
+}
+
+.datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.day, .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.day {
+    font-size: .9375rem !important;
+    padding: .5rem 0 !important;
+    color: #d9dde3 !important;
+}
+
+.datepicker.datepicker-dropdown .datepicker-days table.table-condensed tbody td.new.day, .datepicker.datepicker-inline .datepicker-days table.table-condensed tbody td.new.day {
+    color: #434a54 !important;
+}
+
+.select2-results__option[aria-selected=true] {
+    display: none;
+}
+
+.swal-content__input,
+.swal-content__input:active,
+.swal-content__input:focus{
+    color: black !important;
+}
+
+.tooltip {
+    z-index: 100000000 !important; 
+}
+
+.main-panel-announcement {
+  padding: 10px 25px 10px 25px;
+}
