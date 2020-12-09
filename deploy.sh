@@ -47,6 +47,10 @@ echo "🗑️ Clearing configuration and resetting config cache..."
 php artisan config:clear
 php artisan config:cache
 
+# Set permissions
+echo "😩 Setting permissions..."
+chmod -R 777 storage/*
+
 # Turn off maintenance mode
 echo "👷 Turning off maintenance mode..."
 php artisan up
