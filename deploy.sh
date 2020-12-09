@@ -23,7 +23,7 @@ echo "🎖️ Pulling lastest changes from git repository..."
 # Install/update composer dependecies
 # composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 echo "💎 Installing and/or updating composer dependencies..."
-composer install
+composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev
 
 # Run database migrations
 echo "💾 Running database migrations..."
